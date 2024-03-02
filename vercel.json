@@ -18,7 +18,7 @@
             "dest": "/static/$1"
         },
         {
-            "src": "/(.*)",
+            "src": "/api/user/(.*)",
             "dest": "HRMS_API/wsgi.py"
         }
     ]
