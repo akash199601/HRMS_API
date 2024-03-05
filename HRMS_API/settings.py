@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-edxvh)+0^5q(_q0y!&@q38%#$4t-wy1p8%j(jh^tx7v*e%#s%u
 DEBUG = True
 
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.17.130.216']  # Add the IP address of the second project
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app', '.now.sh']  # Add the IP address of the second project
-
+# ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.vercel.app', '.now.sh']  # Add the IP address of the second project
+ALLOWED_HOSTS = []
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:1000",  # Add the URL of the second project
 #     "http://127.0.0.1:1000",  # Add the URL of the second project
